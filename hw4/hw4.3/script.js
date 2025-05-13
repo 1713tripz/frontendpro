@@ -1,6 +1,6 @@
-let birthdate = prompt('Please enter your year of birth');
-let city = prompt('Please enter your city');
-let sport = prompt('Please enter your favorite sport');
+const birthdate = prompt('Please enter your year of birth');
+const city = prompt('Please enter your city');
+const sport = prompt('Please enter your favorite sport');
 
 
 let message = "";
