@@ -1,8 +1,8 @@
-let boolean = true;
+let isRunning = true;
 
 
-while (boolean) {
-    let currency = prompt("Enter the currency to convert to hryvnias(usd, eur)");
+while (isRunning) {
+    const currency = prompt("Enter the currency to convert to hryvnias(usd, eur)");
 
     if (currency.trim() === "") {
         alert("You didnt enter the currency");
@@ -24,15 +24,13 @@ while (boolean) {
             }
             alert(message);
         } else {
-            let message = "Unknown currency";
+            const message = "Unknown currency";
             alert(message);
         }
     }
-    let answer = prompt("Do you want convert another currency to hryvnias? yes/n");
+    const answer = prompt("Do you want convert another currency to hryvnias? yes/n");
     if (answer === null || answer.trim().toUpperCase() !== "YES" && answer.trim().toUpperCase() !== "Y") {
-        boolean = false;
+        isRunning = false;
     }
 }
 
-// 41
-// 46
