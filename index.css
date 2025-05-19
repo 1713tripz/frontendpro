@@ -10,7 +10,7 @@ h2 {
 
 a {
     text-decoration: underline;
-    color: #ffc2d2;
+    color: #f3f3f3;
     transition: 0.5s;
 
     &:hover {
@@ -18,9 +18,12 @@ a {
     }
 }
 
+
+
+
 body {
-    background: #6a6a6a;
-    color: #ffc2d2;
+    background: rgb(41, 41, 41);
+    color: #f3f3f3;
     font-family: 'monospace', sans-serif;
 }
 
@@ -65,4 +68,8 @@ body {
     flex-direction: column;
     gap: 10px;
     z-index: 1;
+}
+
+.simple-text{
+    margin: 5vw 5vh ;
 }
