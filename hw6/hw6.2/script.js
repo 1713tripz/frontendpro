@@ -12,6 +12,7 @@ function foo(arr) {
     return result;
 
 }
+
 function getAverage(numbers) {
     let sum = 0;
 
